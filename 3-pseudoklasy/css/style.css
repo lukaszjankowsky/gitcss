@@ -1,0 +1,47 @@
+
+/* po wskazaniu kursorem element zmienia kolor */
+#name:hover {
+    background-color: aquamarine;
+}
+
+
+/* zmiana koloru po sybraniu elementu (kliknieciu) */
+#name:focus {
+    background-color: bisque;
+}
+
+
+/* ZMIANA KOLORU ELEMENTOW W KLASIEy */
+
+/* pierwszego elementu z klasy*/
+.customer:first-child {
+    color: lime;
+}
+
+/* ostatniego elementu klasy */
+.customer:last-child {
+    color: blue;
+}
+
+/* wybranego elementu klasy */
+.customer:nth-child(5) {
+    color: fuchsia;
+}
+
+/* drugiego od konca elementu klasy */
+.customer:nth-last-child(2) {
+    color:cyan;
+}
+
+
+/* parzystego elementu klasy */
+.customer:nth-child(even) {
+    color:burlywood;
+}
+
+/* co trzeciego elementu klasy + offset 1 */
+.customer:nth-child(6n +1) {
+    background:coral;
+}
+
+/* ----------------- */
