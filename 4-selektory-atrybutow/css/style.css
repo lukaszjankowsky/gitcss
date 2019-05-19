@@ -1,0 +1,47 @@
+/* zmiana kolorow poprzez atrybut */
+
+[title] {
+    background-color:rgb(0, 179, 255);
+}
+
+
+/* zmiana wszystkich elementow HTML o podanej wartosci */
+[title = "About me"] {
+    color: rgb(47, 238, 9);
+}
+
+
+/* zmiana wszystkich elementow HTML, ktore zawieraja podana wartosc */
+[title~="Container"] {
+    background-color: bisque;
+}
+
+
+/* wyszuka i zmieni styl dla kazdego element w ktorym wystepuje ciag znakow */
+[title*= "skills" ] {
+    background-color: pink; 
+}
+
+
+/* znajduje każdy element HTML mający atrybut att, którego wartość
+zaczyna się od ciągu znaków */
+[title^="More"] {
+    background-color: greenyellow;
+}
+
+
+/* znajduje każdy element HTMLR mający atrybut att, którego wartość
+kończy się ciągiem znaków */
+[title$="skills"] {
+    background-color: slateblue;
+}
+
+
+/* hierarchia zmiana formatowania elementow */
+[title]:first-child {
+    background-color: lightslategray;
+}
+
+nav>ul>li>a[title] {
+    background-color:black;
+}

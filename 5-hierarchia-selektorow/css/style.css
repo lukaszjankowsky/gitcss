@@ -1,0 +1,23 @@
+/* w pierwszej kolejnosci sa uwzgledniane style z html-a */
+
+/* hierarchia jest wazniejsza niz kaskadowosc */
+
+p {
+    background-color: lightblue;
+}
+
+.paragraph {
+    background-color: red;
+}
+
+p {
+    background-color: lightblue;
+}
+
+p#paragraph {
+    background-color: brown;
+}
+
+p {
+    background-color: salmon !important;
+}
