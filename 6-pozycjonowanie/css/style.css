@@ -1,0 +1,55 @@
+/* pozycjonowanie: statyczne */
+
+#static {
+    height: 100px;
+    width: 400px;
+    background-color: aquamarine;
+}
+
+
+/* pozycjonowanie relatywne (wzgledem elementu w ktorym sie znajduje)*/
+
+#relative {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: yellow;
+    top: 20px;
+    left: 20px;
+}
+
+
+/* pozycjonowanie absolutne (wzgledem przegladari) */
+
+#absolute {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    background-color: blueviolet;
+    top: 50px;
+    left: 30px;
+}
+
+
+/* pozycja ustalona (fixed) */
+
+#fixed {
+    position: fixed;
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    bottom: 45px;
+    right: 30px;
+}
+
+
+/* pozycja sticky - element zachowuje się tak jakby był pozycjonowany relatywnie, aż do
+momentu, gdy znajdzie się w określonej odległości od krawędzi przeglądarki */
+
+#sticky {
+    position: sticky;
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+    top: 10px;
+}
