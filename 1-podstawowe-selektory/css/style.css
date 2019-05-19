@@ -1,0 +1,48 @@
+/* wszystkie elementy, ktore znajduja sie na stronie "*" mialy okreslony styl */
+* {
+    color:lightgray;
+}
+
+
+/* paragrafy */
+p{
+    color: pink;
+}
+
+
+/* wyciaganie wybranych elementow po "#"  */
+#kasia {
+    color: black;
+}
+
+/* wyciaganie elementow po klasie "." */
+.lorak {
+    color: blue;
+}
+
+
+
+
+/* selektor bezposredniego potomka ">" */
+li > a {
+    color: red;
+}
+
+
+/* selektor wszystkich potomkow (tylko spacja) */
+ul span {
+    color: blueviolet;
+}
+
+
+/* selektor rodzenstwa */
+li#pierwszy~li {
+    background: aqua;
+}
+
+
+/* selektor bezposredniego rodzenstwa */
+li#pierwszy + li {
+    background-color: brown;
+}
+
