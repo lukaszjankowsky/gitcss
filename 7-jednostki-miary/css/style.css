@@ -1,0 +1,37 @@
+html {
+    font-size: 20px
+}
+
+#container>div {
+    background-color: orange;
+    margin-bottom: 15px;
+}
+
+
+/* wartosci wpikselach */
+
+#pixels {
+    width: 400px;
+}
+
+
+/* jest obliczana przez przeglądarkę internetową jako wielokrotność
+wartości właściwości font-size elementu rodzica */
+
+#em {
+    width: 20em;
+}
+
+
+/* wielkosc % okna */
+
+#percent {
+    width: 50%;
+}
+
+
+/* wielkosc w zaleznosci od wysokosci okna przegladarki */
+
+#vh {
+    width: 60vh;
+}

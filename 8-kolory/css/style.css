@@ -1,0 +1,29 @@
+body {
+    background-color: brown;
+}
+
+div {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+#predefined-colors {
+    background-color: green;
+}
+
+#hexadecimal-colors {
+    background-color: #ff23ff
+}
+
+#short-hexadecimal-colors {
+    background-color: #bbb;
+}
+
+#rgb-function {
+    background-color: rgba(17, 231, 238);
+}
+
+#rgba-function {
+    background-color: rgba(238, 223, 17, 0.884);
+}
