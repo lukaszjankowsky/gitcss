@@ -1,0 +1,41 @@
+/* elementy blokowe */
+
+#p1 {
+    background-color: gold;
+}
+
+#p2 {
+    border: 2px solid green;
+    background-color: azure;
+}
+
+#inline-elements p {
+    display: inline;
+}
+
+#inline-p1 {
+    background-color: rebeccapurple;
+}
+
+#inline-p2 {
+    text-decoration: underline;
+    background-color: aqua;
+}
+
+
+/* bierzemy wszystkie li znajdujace sie w div o id=inline-block-elements */
+
+#inline-block-elements li {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    background-color: lightseagreen;
+}
+
+
+/* ukrywanie tekstu */
+
+#display-none p {
+    display: none;
+}
