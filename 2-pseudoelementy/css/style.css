@@ -1,0 +1,15 @@
+body {
+    background-color: lightgreen;
+}
+
+
+/* selektroy pseudoelementow */
+#pierwszy::before {
+    content: "Ala ma kota";
+    color: pink;
+}
+
+#drugi::after {
+    content: "Ala ma kota";
+    color: pink;
+}
