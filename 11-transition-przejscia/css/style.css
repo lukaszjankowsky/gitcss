@@ -1,0 +1,46 @@
+/* "." opisuje klasę */
+
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+
+/* element, czas trwania (3s), jaki efekt (linear-stale tempo), opoznienie (1s) */
+
+#colors {
+    transition: background-color 3s linear 1s;
+    background-color: yellow;
+}
+
+#colors:hover {
+    background-color: blueviolet;
+}
+
+
+/* zmana rozmiaru elementu po wskaaniu kursorem */
+
+
+/* w pione */
+
+#box1 {
+    background-color: lightcoral;
+    transition: height 2s;
+}
+
+#box1:hover {
+    height: 250px;
+}
+
+
+/* w poziomie */
+
+#box2 {
+    background-color: lightsalmon;
+    transition: width 2s;
+}
+
+#box2:hover {
+    width: 400px;
+}

@@ -1,0 +1,18 @@
+#strawberry {
+    float: left;
+}
+
+
+/* oplywanie elementu (obrazek z prawej i po lewej tekst ) */
+
+#strawberry2 {
+    float: right;
+}
+
+
+/* czysci oplywanie elementu */
+
+p:last-child {
+    background-color: lightsalmon;
+    clear: both;
+}
