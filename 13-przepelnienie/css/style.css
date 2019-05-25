@@ -1,0 +1,41 @@
+.box {
+    width: 300px;
+    height: 150px;
+    border: 1px solid red;
+    margin: 60px;
+}
+
+
+/* visible – niemieszcząca się zawartość elementu 
+pozostanie widoczna (wartość domyślna) */
+
+#visible {
+    overflow: visible;
+    color: green;
+}
+
+
+/* hidden – ukrycie niemieszczącej się zawartości elementu */
+
+#hidden {
+    overflow: hidden;
+    color: blue;
+}
+
+
+/* scroll – dodanie suwaków do elementu, nawet jeśli 
+zawartość mieści się w elemencie HTML */
+
+#scroll {
+    overflow: scroll;
+    color: orange
+}
+
+
+/* auto – dodanie suwaków do elementu HTML gdy 
+zawartość nie będzie się w nim mieścić  */
+
+#auto {
+    overflow: auto;
+    color: blue;
+}
